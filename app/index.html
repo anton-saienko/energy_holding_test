@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Тестовое задание в Енергетический Холдинг</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" />
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <!-- endbower -->
+
+
+	<!-- свои стили -->
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/style.min.css" />
+	
+	<!-- bower:js -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<!-- endbower -->
+	
+	
+	<!-- свои скрипты -->
+	<script type="text/javascript" src="js/common.js"></script>
+	
+</head>
+<body>
+
+<!--шапка с менюшкой -->
+<header>
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+		  </button>
+		  <a class="navbar-brand" href="#">Главная</a>
+		</div>
+		<div class="collapse navbar-collapse">
+		  <ul class="nav navbar-nav navbar-right" id="menu">
+				<li><a href="#" class="menu__item">Мои покупки</a></li>
+				<li><a href="#" class="menu__item">Контакты</a></li>
+				<li><a href="#" class="menu__item">Доставка</a></li>
+				<li><a href="#" class="menu__item">Войти/Выйти</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+</header>
+ 
+<!--главное окошко --> 
+<div class="wrapper">
+	<div class="main">
+		<div class="main__authorisation">Авторизация</div>
+		<div class="main__registration"><a href="#"  class="main__registration__link">Зарегистрироваться</a></div>
+		<hr>
+		<div class="main__wrapper"><input class="main__input" type="email" name="email" id="input_1"><label for="input_1" class="main__label" >Email <span class="main__asterisk">&#42;</span></label></div>
+		<div class="main__wrapper"><input class="main__input" type="password" name="password" id="input_2"><label for="input_2" class="main__label" >Пароль <span class="main__asterisk">&#42;</span></label></div>
+		<div class="main__remember-wrapper"><input type="checkbox"><span class="main__remember">Запомнить меня</span></div>
+		<div class="main__forget">Забыли пароль? <a href="#"  class="main__forget__link">Возобновить</a></div>
+		<div class="main__enter"><a href="#" class="main__enter__link">Вход</a></div>
+	</div>
+</div>
+
+</body>
+</html>
